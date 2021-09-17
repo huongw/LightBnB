@@ -1,8 +1,8 @@
-INSERT INTO users (name, email, password) VALUES ('Samantha', 'girlgamer2@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('Christian', 'christian.smith89@yahoo.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('Egor', 'e.gorgeous2@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('Tina', 'popstar123@hotmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('Julian', 'julesgotgame34@hotmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+INSERT INTO users (name, email, password) VALUES ('Samantha', 'girlgamer2@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('Christian', 'christian.smith89@yahoo.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('Egor', 'e.gorgeous2@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('Tina', 'popstar123@hotmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('Julian', 'julesgotgame34@hotmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code) VALUES ('Big red', 'Description', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg', 200, 2, 1, 2, 'Canada', '12 Elm Street', 'Vancouver', 'British Columbia', 'A2G 4N3');
 INSERT INTO properties (title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code) VALUES ('Speed lamp', 'Description', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2086676/pexels-photo-2086676.jpeg', 300, 2, 3, 3, 'Canada', '34 Sesame Street', 'Brampton', 'Ontario', 'N3X 9F0');
