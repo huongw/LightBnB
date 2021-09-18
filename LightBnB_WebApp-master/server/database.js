@@ -26,7 +26,7 @@ const getUserWithEmail = function (email) {
     .catch((err) => {
       return err.message;
     });
-}
+};
 exports.getUserWithEmail = getUserWithEmail;
 
 /**
@@ -46,7 +46,7 @@ const getUserWithId = function (id) {
     .catch((err) => {
       return err.message;
     });
-}
+};
 exports.getUserWithId = getUserWithId;
 
 
@@ -67,7 +67,7 @@ const addUser = function (user) {
     .catch((err) => {
       return err.message;
     });
-}
+};
 exports.addUser = addUser;
 
 /// Reservations
@@ -100,7 +100,7 @@ const getAllReservations = function (guest_id, limit = 10) {
     .catch((err) => {
       return err.message;
     });
-}
+};
 exports.getAllReservations = getAllReservations;
 
 /// Properties
@@ -186,5 +186,5 @@ const addProperty = function (property) {
     .catch((err) => {
       return err.message;
     });
-}
+};
 exports.addProperty = addProperty;
