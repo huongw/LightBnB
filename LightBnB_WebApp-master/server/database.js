@@ -168,17 +168,16 @@ exports.getAllProperties = getAllProperties;
 
 //------- Add Data into Properties Table --------------------
 const addProperty = function (property) {
-  const queryString = `INSERT INTO properties (owner_id, title, 
-                       description, number_of_bedrooms, number_of_bathrooms, 
-                       parking_spaces, cost_per_night, small_thumb_nail_url,
-                       large_cover_photo_url, street, country, city, province, post_code) 
+  const queryString = `INSERT INTO properties (title, description, number_of_bedrooms, 
+                       number_of_bathrooms, parking_spaces, cost_per_night, thumbnail_photo_url, 
+                       cover_photo_url, street, country, city, province, post_code, owner_id) 
                        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) 
                        RETURNING *`;
 
-  const queryParams = [property.owner_id, property.title, property.description, property.number_of_bedrooms,
-  property.number_of_bathrooms, property.parking_spaces, property.cost_per_night, property.small_thumb_nail_url,
-  property.large_cover_photo_url, property.street, property.country, property.city,
-  property.province, property.post_code];
+  const queryParams = [property.title, property.description, property.number_of_bedrooms,
+  property.number_of_bathrooms, property.parking_spaces, property.cost_per_night, property.thumbnail_photo_url,
+  property.cover_photo_url, property.street, property.country, property.city,
+  property.province, property.post_code, property.owner_id];
 
   return pool.query(queryString, queryParams)
     .then((result) => {
